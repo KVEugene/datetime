@@ -1,0 +1,34 @@
+{
+  "name": "kveugene/datetime",
+  "description": "Date and time additional library",
+  "type": "library",
+  "version": "1.0.0",
+  "require": {
+    "php": "^8.4",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0",
+    "phpunit/php-code-coverage": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "KVEugene\\DateTime\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/Speed/functions.php"
+    ],
+    "psr-4": {
+      "KVEugene\\DateTime\\Tests\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eugene V. Kudryavtsev",
+      "email": "info@eugeny.su"
+    }
+  ]
+}
