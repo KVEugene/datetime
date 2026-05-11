@@ -2,7 +2,6 @@
   "name": "kveugene/datetime",
   "description": "Date and time additional library",
   "type": "library",
-  "version": "1.0.0",
   "require": {
     "php": "^8.4",
     "ext-mbstring": "*"
