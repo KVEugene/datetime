@@ -2,13 +2,15 @@
   "name": "kveugene/datetime",
   "description": "Date and time additional library",
   "type": "library",
+  "keywords": ["datetime","dateinterval","time offset"],
+  "homepage": "https://github.com/KVEugene/datetime",
   "require": {
     "php": "^8.4",
     "ext-mbstring": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^12.0",
-    "phpunit/php-code-coverage": "^12.0"
+    "phpunit/phpunit": "^13.0",
+    "phpunit/php-code-coverage": "^14.0"
   },
   "autoload": {
     "psr-4": {
