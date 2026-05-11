@@ -17,6 +17,7 @@ composer.lock
 
 # PHPUnit
 /app/phpunit.xml
+/.github/clover.xml
 
 # Build data
 /build/
