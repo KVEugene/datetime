@@ -23,7 +23,7 @@
 
     <coverage>
         <report>
-            <clover outputFile="github/workspace/clover.xml" />
+            <clover outputFile=".github/clover.xml" />
         </report>
     </coverage>
 

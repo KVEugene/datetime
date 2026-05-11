@@ -28,6 +28,7 @@ jobs:
         with:
           coverage_badge_path: output/coverage.svg
           push_badge: false
+          report: '.github/clover.xml'
 
       - name: Git push to image-data branch
         uses: peaceiris/actions-gh-pages@v3
